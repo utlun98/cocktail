@@ -8,7 +8,6 @@ function Error () {
                     home page
                 </Link>
             </div>
-            <h2>error page</h2>
         </section>
     )
 }
