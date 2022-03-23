@@ -4,7 +4,7 @@ function Error () {
         <section className="error-page section">
             <div className="error-container">
                 <h1>oops! It's a dead end</h1>
-                <Link to="/" className="btn btn-primary">
+                <Link to="/cocktail" className="btn btn-primary">
                     home page
                 </Link>
             </div>

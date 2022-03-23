@@ -81,7 +81,7 @@ function SingleCocktail () {
     return(
         <>
         <section className="section cocktail-section">
-            <Link to="/" className="btn btn-primary">
+            <Link to="/cocktail" className="btn btn-primary">
                 Back home
             </Link>
             <h2 className="section-title">{name}</h2>
