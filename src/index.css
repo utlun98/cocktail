@@ -359,7 +359,7 @@ Cocktail
 ======
 */
 
-.cocktail-section {
+.cocktail-section{
   text-align: center;
 }
 .drink {
@@ -371,7 +371,7 @@ Cocktail
 .drink img {
   border-radius: var(--mainBorderRadius);
 }
-.drink p {
+.color-p {
   font-weight: bold;
   text-transform: capitalize;
   line-height: 1.8;
@@ -384,6 +384,7 @@ Cocktail
   padding: 0.25rem 0.5rem;
   border-radius: var(--mainBorderRadius);
   color: var(--primaryColor);
+  margin-right: 10px;
 }
 .drink-info {
   padding-top: 2rem;

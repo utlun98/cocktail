@@ -79,45 +79,51 @@ function SingleCocktail () {
         instructions,
         ingredients} = cocktail;
     return(
-        <div classname="container">
+        <>
         <section className="section cocktail-section">
             <Link to="/" className="btn btn-primary">
                 Back home
             </Link>
             <h2 className="section-title">{name}</h2>
-            <div className="drink">
-                <img src={image} alt={name}/>
-                <div className="drink-info">
-                    <p>
-                        <span className="drink-data">name : </span>
+            </section>
+            <div classname="container">
+            <div className="row justify-content-center align-items-center">
+                <div className="col-12 col-sm-3">
+                <img src={image} alt={name}/></div>
+                <div className="col-12 col-sm-9">
+
+                    <p className="color-p">
+                        <span className="drink-data">Name : </span>
                          {name}
                     </p>
-                    <p>
-                        <span className="drink-data">category : </span>
+                    <p className="color-p">
+                        <span className="drink-data">Category : </span>
                          {category}
                     </p>
-                    <p>
-                        <span className="drink-data">info : </span>
+                    <p className="color-p">
+                        <span className="drink-data">Info : </span>
                          {info}
                     </p>
-                    <p>
-                        <span className="drink-data">glass : </span>
+                    <p className="color-p">
+                        <span className="drink-data">Glass : </span>
                          {glass}
                     </p>
-                    <p>
-                        <span className="drink-data">instructions : </span>
+                    <p className="color-p">
+                        <span className="drink-data">Instructions : </span>
                          {instructions}
                     </p>
-                    <p>
-                        <span className="drink-data">ingredients : </span>
+                    <p className="color-p">
+                        <span className="drink-data">Ingredients : </span>
                         {ingredients.map((item, index) =>{
                             return item? <span key={index}>{item}</span> : null
                         })}
                     </p>
                 </div>
+                </div>
             </div>
-        </section>
-        </div>
+            </>
+        
+        
     )
 }
 export default SingleCocktail
