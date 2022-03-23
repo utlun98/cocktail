@@ -233,6 +233,7 @@ Error
 .error-page {
   display: flex;
   justify-content: center;
+  height: 73%;
 }
 .error-container {
   text-align: center;

@@ -79,6 +79,7 @@ function SingleCocktail () {
         instructions,
         ingredients} = cocktail;
     return(
+        <div classname="container">
         <section className="section cocktail-section">
             <Link to="/" className="btn btn-primary">
                 Back home
@@ -116,6 +117,7 @@ function SingleCocktail () {
                 </div>
             </div>
         </section>
+        </div>
     )
 }
 export default SingleCocktail
